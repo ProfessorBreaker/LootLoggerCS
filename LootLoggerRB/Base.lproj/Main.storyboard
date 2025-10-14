@@ -66,7 +66,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dO-R4-xag">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dO-R4-xag">
                                             <rect key="frame" x="28" y="44" width="31" height="15"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -82,6 +82,11 @@
                                         <constraint firstItem="7dO-R4-xag" firstAttribute="leading" secondItem="F62-D1-rc2" secondAttribute="leading" id="oeM-cp-Uzy"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="F62-D1-rc2" id="Do1-iL-8U6"/>
+                                    <outlet property="serialNumberLabel" destination="7dO-R4-xag" id="yFH-0K-ne6"/>
+                                    <outlet property="valueLabel" destination="lgP-7H-FNh" id="q6C-ek-Mo1"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

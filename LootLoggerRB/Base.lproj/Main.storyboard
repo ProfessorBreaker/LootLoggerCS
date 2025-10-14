@@ -76,6 +76,7 @@
                                     <constraints>
                                         <constraint firstItem="lgP-7H-FNh" firstAttribute="centerY" secondItem="j9X-Eo-Vq2" secondAttribute="centerY" id="70L-VM-oAu"/>
                                         <constraint firstAttribute="bottom" secondItem="7dO-R4-xag" secondAttribute="bottom" constant="6" id="ExP-EN-kfp"/>
+                                        <constraint firstItem="7dO-R4-xag" firstAttribute="top" secondItem="F62-D1-rc2" secondAttribute="bottom" constant="8" symbolic="YES" id="Lcm-fb-P5W"/>
                                         <constraint firstAttribute="trailing" secondItem="lgP-7H-FNh" secondAttribute="trailing" constant="31" id="SSe-Zs-J7f"/>
                                         <constraint firstItem="F62-D1-rc2" firstAttribute="top" secondItem="j9X-Eo-Vq2" secondAttribute="topMargin" id="X5E-bX-Kpb"/>
                                         <constraint firstItem="F62-D1-rc2" firstAttribute="leading" secondItem="j9X-Eo-Vq2" secondAttribute="leadingMargin" constant="8" id="jih-2d-mKf"/>
